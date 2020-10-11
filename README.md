@@ -28,9 +28,10 @@ The application requires this installations to operate:
 
 * Open with code . or atom . depending on the text editor you are   using.
 
-## To run the application 
+## Functionality
 
 * To run test for this application
+
         $ python3.8 passlock_test.py
 
  * Open terminal and type the following commands
