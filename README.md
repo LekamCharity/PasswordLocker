@@ -15,7 +15,7 @@ The application requires this installations to operate:
  * pip
 
  ## To get to the Website use the following:
- * Download the folder from the github
+* Download the folder from the github
 
 * clone  https://github.com/LekamCharity/PasswordLocker.git 
 
@@ -24,3 +24,16 @@ The application requires this installations to operate:
 * cd Password-Locker
 
 * Open with code . or atom .
+
+## To run the application 
+
+* To run test for this application
+        $ python3.8 passlock_test.py
+
+ * Open terminal and type the following commands
+
+        $ chmod +x Run.py
+
+        $./Run.py       
+
+
