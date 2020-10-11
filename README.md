@@ -24,7 +24,7 @@ The application requires this installations to operate:
 
 * You can even Download zip the folder if you have problems with clone..
 
-* cd Password-Locker
+* cd PasswordLocker
 
 * Open with code . or atom . depending on the text editor you are   using.
 
