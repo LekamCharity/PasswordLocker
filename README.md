@@ -14,7 +14,10 @@ The application requires this installations to operate:
  * pyperclip
  * pip
 
- ## To get to the Website use the following:
+ ## Technologies Used 
+  * python3.8
+
+## To get to the Website use the following:
 * Download the folder from the github
 
 * clone  https://github.com/LekamCharity/PasswordLocker.git 
@@ -35,5 +38,12 @@ The application requires this installations to operate:
         $ chmod +x Run.py
 
         $./Run.py       
+   
+## Contact Information 
+
+If you have any question or contributions, please email me at [lekamcharity@gmail.com]
+
+### License
+  [MIT](https://github.com/LekamCharity/githubSearch/blob/master/License) Copyright (c) 2020 Lekam Charity
 
 
