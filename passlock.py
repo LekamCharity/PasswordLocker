@@ -92,7 +92,7 @@ class Credentials:
     # @classmethod
     def generate_password(self):
         """
-        generate a random password consisting of numbers,letters and special characters
+        generate a random password consisting of letters
         """
-        password = string.ascii_uppercase + string.ascii_lowercase + string.digits + "~!@#$%^&*"
+        password = string.ascii_uppercase + string.ascii_lowercase + "Olomoh"
         return ''.join(random.choice(password) for i in range(1,9))
