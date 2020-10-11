@@ -37,11 +37,6 @@ def save_credentials(credentials):
     function that addes a new credential to the credential
     '''
     credentials.save_credentials()
-def display_account_details():
-    '''
-    function that displays user details
-    '''
-    Credentials.display_credentials()
 def delete_credentials(credentials):
     '''
     function that deletes credentials from the credential list
@@ -105,7 +100,7 @@ def passlocker():
             print(f"Hello {username} welcome to PasswordLocker" )
             print("\n")
     while True:
-        print("To proceed select any:\n CC - Create a new credential \n DC - Display Credentials \n FC - Find a credential \n GP - Generate A randomn password \n D - Delete credential \n EX - Exit the application \n")    
+        print("To proceed select any:\n CC - Create a new credential  \n FC - Find a credential \n GP - Generate a randomn password \n D - Delete credential \n EX - Exit the application \n")    
         short_code = input().lower().strip()
         if short_code == "cc":
             print("Create New Credentials")
@@ -115,7 +110,7 @@ def passlocker():
             print("Your Account username")
             userName = input()
             while True:
-                print(" TP - To type your own pasword if you already have an account:\n GP - To generate random Password")
+                print(" TP - Type your own pasword if you already have an account:\n GP - Generate a random Password")
                 password_Choice = input().lower().strip()
                 if password_Choice == 'tp':
                     password = input("Enter Your Own Password\n")
@@ -129,18 +124,6 @@ def passlocker():
             print('\n')
             print(f"Account Credential for: {account} - UserName: {userName} - Password:{password} created succesfully")
             print('\n')
-        elif short_code == "dc":
-            if display_account_details():
-                print("Here's your list of acoounts: ")
-                
-                print('*' * 30)
-                print('_'* 30)
-                for account in display_account_details():
-                    print(f" Account:{account.account} \n User Name:{username}\n Password:{password}")
-                    print('_'* 30)
-                print('*' * 30)
-            else:
-                print("Sorry you don't have any credentials saved yet..........")
         elif short_code == "fc":
             print("Enter the Account Name you want to search for")
             search_name = input().lower()
