@@ -26,7 +26,7 @@ The application requires this installations to operate:
 
 * cd Password-Locker
 
-* Open with code . or atom .
+* Open with code . or atom . depending on the text editor you are   using.
 
 ## To run the application 
 
