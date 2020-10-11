@@ -38,8 +38,16 @@ The application requires this installations to operate:
 
         $ chmod +x Run.py
 
-        $./Run.py       
-   
+        $./Run.py      
+
+## User Stories
+As a user l would like to..
+
+* Log in
+* Generate a more secure passwords
+* Search for saved passwords
+* Delete passwords
+
 ## Contact Information 
 
 If you have any question or contributions, please email me at [lekamcharity@gmail.com]
