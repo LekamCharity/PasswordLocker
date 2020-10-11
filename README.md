@@ -6,7 +6,7 @@ Lekam Charity
 
 ## Description
 
-This is a python app that enables users to users to store their passwords and also create new passwords.
+This is a python app that enables users to users to store their passwords and also create new passwords. The application runs on the terminal and the user navigates through the app by using short codes.
 
 ## Installation/Setup instruction
 The application requires this installations to operate:
